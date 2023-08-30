@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../CSS/calculadora_CSS.css">
+      <title>Calculadora</title>
+   </head>
+
+   <body id="background">
+
+      <!--Parte do display-->
+      <div id="headDisplay">
+         <h1 id="textoCima"></h1>
+         <h1 id="textoBaixo"></h1>
+
+
+      </div>
+
+      <!--Parte dos Comandos-->
+      <div id="commandHub">
+
+         <button id="esquerda1" onclick="apagar()">AC</button>
+         <button id="meio1" onclick="negativo()">+ / -</button>
+         <button id="meio1e5" onclick="porcentagem()">%</button>
+         <button id="direita1" onclick="divisão()">/</button>
+
+         <button id="esquerda2" onclick="adUm()">1</button>
+         <button id="meio2" onclick="adDois()">2</button>
+         <button id="meio2e5" onclick="adTres()">3</button>
+         <button id="direita2" onclick="vezes()">X</button>
+
+         <button id="esquerda3" onclick="adQuatro()">4</button>
+         <button id="meio3" onclick="adCinco()">5</button>
+         <button id="meio3e5" onclick="adSeis()">6</button>
+         <button id="direita3" onclick="menos()">-</button>
+
+         <button id="esquerda4" onclick="adSete()">7</button>
+         <button id="meio4" onclick="adOito()">8</button>
+         <button id="meio4e5" onclick="adNove()">9</button>
+         <button id="direita4" onclick="mais()">+</button>
+
+         <button id="esquerda5" onclick="adZero()">0</button>
+         <button id="meio5" onclick="ponto()">.</button>
+         <button id="direita5" onclick="igual()">=</button>
+
+
+
+
+
+      </div>
+
+
+      <script src="../JS/calculadora_JS.js"></script>
+   </body>
+
+</html>
