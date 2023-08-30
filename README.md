@@ -16,6 +16,8 @@ O projeto é uma calculadora simples feita com as tecnologias básicas para dese
 
 Tanto HTML, CSS e JS utilizam as bibliotecas nativas das linguagens para o funcionamento da calculadora.
 
+![Imagem do Projeto](https://github.com/DeVinc1/PROJETO-CalculadoraWeb/blob/main/img_md/img_calculadora.jpg)
+
 ## ⚠️ Problemas Conhecidos
  A lógica para realizar o cálculo não está bem desenvolvida e o uso da função `eval()` não está adequado com os padrões de segurança de código.
 
